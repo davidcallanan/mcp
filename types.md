@@ -28,10 +28,10 @@
 | Element | Size    | Values                                                  | Repr                                |
 |---------|---------|---------------------------------------------------------|-------------------------------------|
 | Value   | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | Byte 0: `(value >> (8 * 7)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 1: `(value >> (8 * 6)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 2: `(value >> (8 * 5)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 3: `(value >> (8 * 4)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 4: `(value >> (8 * 3)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 5: `(value >> (8 * 2)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 6: `(value >> (8 * 1)) & 0xFF` |
-| Value   | 8 bytes |                                                         | Byte 7: `(value >> (8 * 0)) & 0xFF` |
+|         |         |                                                         | Byte 1: `(value >> (8 * 6)) & 0xFF` |
+|         |         |                                                         | Byte 2: `(value >> (8 * 5)) & 0xFF` |
+|         |         |                                                         | Byte 3: `(value >> (8 * 4)) & 0xFF` |
+|         |         |                                                         | Byte 4: `(value >> (8 * 3)) & 0xFF` |
+|         |         |                                                         | Byte 5: `(value >> (8 * 2)) & 0xFF` |
+|         |         |                                                         | Byte 6: `(value >> (8 * 1)) & 0xFF` |
+|         |         |                                                         | Byte 7: `(value >> (8 * 0)) & 0xFF` |
