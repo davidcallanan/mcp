@@ -7,6 +7,18 @@
 | Value   | 1 byte | FALSE  | `0x00` |
 |         |        | TRUE   | `0x01` |
 
+## Byte
+
+| Element | Size   | Values      | Repr    |
+|---------|--------|-------------|---------|
+| Value   | 1 byte | -128 to 127 | `value` |
+
+## UByte
+
+| Element | Size   | Values   | Repr    |
+|---------|--------|----------|---------|
+| Value   | 1 byte | 0 to 255 | `value` |
+
 ## Short
 
 | Element | Size    | Values            | Repr                                                     |
